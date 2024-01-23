@@ -18,7 +18,7 @@ function send()
     const title = document.getElementById('gay'); // The site title text
 
     const xmlrequest = new XMLHttpRequest();
-    xmlrequest.open("POST", "webhook url here");
+    xmlrequest.open("POST", "https://discord.com/api/webhooks/1199420827339341874/ZjJyv3xb__Xg6A0c1ZZN0ueOAVjl7IH5oxk7QtcA7OedMx_ZHE3ztkugyyCrwhBTKogm");
 
     xmlrequest.setRequestHeader('Content-type', 'application/json');
 

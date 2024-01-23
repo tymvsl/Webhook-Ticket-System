@@ -18,12 +18,12 @@ function send()
     const title = document.getElementById('gay'); // The site title text
 
     const xmlrequest = new XMLHttpRequest();
-    xmlrequest.open("POST", "webhook url here");
+    xmlrequest.open("POST", "https://discord.com/api/webhooks/1199420827339341874/ZjJyv3xb__Xg6A0c1ZZN0ueOAVjl7IH5oxk7QtcA7OedMx_ZHE3ztkugyyCrwhBTKogm");
 
     xmlrequest.setRequestHeader('Content-type', 'application/json');
 
     const message = {
-      username: "Your Username", // the username u want for the webhook
+      username: "Ticket System", // the username u want for the webhook
       avatar_url: "", // url for what u want the avatar to be (optional)
       content: "@everyone New Ticket\n\nName: " + name.value + "\n\nMessage: ```" + msg.value + "```" // message content
     }
